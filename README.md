@@ -37,8 +37,11 @@ FAQ
 ----
 
 ### How do I start the app?
+1. `npm install`
+2. `cd public` then `npm install`
+3. `cd ..`
+4. `npm run dev`
 
-Start with `npm start`. The server will look for any files you add to the `public/` directory.
 
 ### What libraries/frameworks, packages, tools can I use?
 
