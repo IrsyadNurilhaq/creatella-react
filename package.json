@@ -5,12 +5,15 @@
   "description": "Build a grid of product items and ads",
   "main": "server/index.js",
   "scripts": {
-    "start": "json-server server/index.js --routes server/routes.json --middlewares server/handle-delay.js server/handle-ads.js",
+    "start": "json-server server/index.js --routes server/routes.json --middlewares server/handle-delay.js server/handle-ads.js ",
+    "dev": "concurrently \"cd public && npm start\" \"npm run start\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "",
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "concurrently": "^4.1.2",
     "cool-ascii-faces": "^1.3.4",
     "json-server": "^0.9.6"
   }

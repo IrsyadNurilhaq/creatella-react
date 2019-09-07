@@ -1,0 +1,58 @@
+.products{
+    padding-top: 140px;
+}
+.margin-15{
+    margin-bottom: 15px;
+    padding: 0 !important;
+}
+.detail-product{
+    text-align: center;
+}
+.card{
+    vertical-align: middle;
+    height: 250px !important;
+    line-height: 2;
+    display: inline-block;
+}
+.loading-card{
+    background-color: rgba(255,255,255,0.7);
+    filter: blur(2px);
+}
+.card-body{
+    padding-bottom: 0 !important;
+}
+.card-text{
+    font-size: 14px !important;
+}
+.green{
+    color: green;
+}
+.grey{
+   color: #707070;
+}
+.end{
+    margin-top: 20px;
+    text-align: center;
+}
+.loading{
+    position: fixed;
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 10%;
+    bottom: 0;
+    z-index: 2;
+    background-color: rgba(255,255,255,0.9);
+}
+
+.spinner{
+    width: 8%;
+    height: auto;
+    margin-top: 35%;
+    margin-left: 45%;
+}
+.text-loading{
+    margin-top: 5px;
+    text-align: center;
+}
