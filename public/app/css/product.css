@@ -53,6 +53,29 @@
     margin-left: 45%;
 }
 .text-loading{
-    margin-top: 5px;
+    margin-top: 10px;
     text-align: center;
+}
+@media screen and (max-width: 600px){
+    .spinner{
+        width: 20%;
+        margin-top: 105%;
+        margin-left: 37%;
+    }
+    .loading{
+        width: 100%;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px){
+    .loading{
+        width: 100%;
+        left: 0;
+    }
+    .spinner{
+        margin-top: 60%;
+        width: 10%;
+        margin-left: 44%;
+    }
 }
